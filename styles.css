@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+
+body{
+    /*animation-name: shiftingBackground;
+    animation-iteration-count: 1;
+    animation-duration: 10s;
+    background: cover;
+    background-repeat: no-repeat;*/
+    
+    background: url(/pexels-sourav-mishra-3660527.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+
+
+.navbar{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    background: black;
+    flex-wrap: wrap;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-items: end;
+}
+
+.menu-item{
+    padding-right: 25px;
+    text-decoration: none;
+    color: #c51212;
+    margin: 10px;
+    transform: translateY(0px);
+    transition: transform,color 0.5s ease-in-out;
+}
+
+.menu-item:hover{
+    color: white;
+    transform: translateY(15px);
+
+}
+
+.main-content{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+
+.main-content-items{
+    width: 100%;
+    height: 100%;
+    border: black solid 1px;
+    font-weight: 600;
+    font-family: 'Oswald';
+    font-size: 30px;
+    letter-spacing: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+    color: #c51212;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.main-content-items:hover{
+    letter-spacing: 10px;
+    color: white;
+    background:rgba(0, 0, 0, 0.7);
+}
+
+@media all and (max-width: 500px) {
+    body{
+        background: blue;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@keyframes shiftingBackground{
+    
+    0% {background: url(https://martincrownover.com/wp-content/uploads/2015/01/x1bg-xglow-orange.jpg);}
+    25% {background: url(https://i.pinimg.com/736x/55/95/f3/5595f3e33fd6a6dd755d7537f90b8b31.jpg);}
+    50% {background: url(https://wallpaperaccess.com/full/763845.png);}
+    75% {background: url(https://cdn.wallpapersafari.com/94/60/Q3cdjz.jpg);}
+    100% {background: url(https://images4.alphacoders.com/279/279284.jpg);}
+
+}*/
